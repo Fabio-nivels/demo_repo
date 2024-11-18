@@ -42,6 +42,6 @@ class MyModel(models.Model):
             'view_type': 'form',
             'view_mode': 'form',
             'res_model': 'my.model.wizard',
-            'view_id': self.env.ref('demo_module.view_my_model_wizard').id,
+            'view_id': self.env.ref('ff_test_module.view_my_model_wizard').id,
             'target': 'new',
         }

@@ -10,13 +10,13 @@ class WebsiteHelloWorld(http.Controller):
         testab = 23
         my_model_ids = request.env['my.model'].sudo().search([])
 
-        return request.render("demo_module.my_model_list", {'test': testab, 'my_model_ids': my_model_ids})
+        return request.render("ff_test_module.my_model_list", {'test': testab, 'my_model_ids': my_model_ids})
 
     # Route to edit existing model form
     @http.route(['/my/model/<int:model_id>'], methods=['POST', 'GET'], type='http', auth="public", website=True)
     def my_models_detail(self, model_id, **kw):
         my_model_id = request.env['my.model'].sudo().browse(model_id)
-        return request.render("demo_module.my_model_detail", {'my_model_id': my_model_id})
+        return request.render("ff_test_module.my_model_detail", {'my_model_id': my_model_id})
 
     # Route to save changes on existing model form
     @http.route(['/my/model/write/<int:model_id>'], methods=['GET'], type='http', auth="public", website=True, csrf=False)
@@ -40,7 +40,7 @@ class WebsiteHelloWorld(http.Controller):
     # Route to open new model form
     @http.route(['/my/model/create'], methods=['POST', 'GET'], type='http', auth="public", website=True, csrf=False)
     def create_model(self, **post):
-        return request.render("demo_module.my_model_create")
+        return request.render("ff_test_module.my_model_create")
 
     # Route to save new model Form
     @http.route(['/my/model/create/save'], methods=['POST', 'GET'], type='http', auth="public", csrf=False)

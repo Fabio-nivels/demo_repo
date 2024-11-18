@@ -1,5 +1,5 @@
 {
-    'name': 'Demo Module',
+    'name': 'FF Test Module',
     'version': '1.0',
     'category': 'Accounting/Accounting',
     'description': """""",
@@ -12,7 +12,7 @@
 
     'assets': {
         'web.report_assets_common': [
-            'demo_module/static/src/scss/my_model.scss'
+            'ff_test_module/static/src/scss/my_model.scss'
         ]
     },
     'data': [
