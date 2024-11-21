@@ -3,8 +3,6 @@
     'version': '1.0',
     'category': 'Accounting/Accounting',
     'description': """""",
-    'price': 0.0,
-    'currency': 'EUR',
     'depends': [
         'sale',
         'website'
