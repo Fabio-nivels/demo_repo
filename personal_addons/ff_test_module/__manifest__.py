@@ -25,5 +25,7 @@
         'templates/hello_world.xml',
         'wizard/wizard.xml'
     ],
-    'images': ['static/description/images/image1.png'],
+    'images': [
+        'static/description/images/image1.png'
+    ],
 }
