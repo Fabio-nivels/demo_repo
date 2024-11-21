@@ -1,6 +1,6 @@
 {
     'name': 'FF Test Module',
-    'version': '1.0',
+    'version': '16.0.11.24.01',
     'category': 'Accounting/Accounting',
     'description': """""",
     'depends': [
