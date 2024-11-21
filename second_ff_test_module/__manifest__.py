@@ -1,5 +1,5 @@
 {
-    'name': 'FF Test Module',
+    'name': 'Second FF Test Module',
     'version': '1.0',
     'category': 'Accounting/Accounting',
     'description': """""",
