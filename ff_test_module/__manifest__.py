@@ -11,10 +11,7 @@
     'assets': {
         'web.report_assets_common': [
             'ff_test_module/static/src/scss/my_model.scss',
-            'ff_test_module/static/src/scss/style.css'
         ]
-        # 'web.assets_backend': [
-        # ]
     },
     'data': [
         'security/ir.model.access.csv',
