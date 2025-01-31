@@ -11,6 +11,9 @@
     'assets': {
         'web.report_assets_common': [
             'ff_test_module/static/src/scss/my_model.scss'
+        ],
+        'web.assets_backend': [
+            'ff_test_module/static/src/scss/style.css'
         ]
     },
     'data': [
