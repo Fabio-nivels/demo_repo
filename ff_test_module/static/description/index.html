@@ -3,74 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purchase Email Product Documents</title>
+    <title>Bootstrap Layout</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="w-75 mx-auto rounded shadow">
-    <style type="text/css">
-        .info-btn {
-            background-color: #3279B6 !important;
-            border-radius: 1.5rem !important; 
-            display: inline-flex !important; 
-            align-items: center !important; 
-            gap: 1.5rem !important;
-        }
-        
-        .feature-btn {
-            color: #3279B6 !important; 
-            background-color: #D1E3F2 !important; 
-            width: 90% !important; 
-            border-radius: 1.5rem !important; 
-            display: inline-flex !important; 
-            align-items: center !important; 
-            gap: 1.5rem !important;
-        }
-        
-        .credentials-btn {
-            background-color: white !important; 
-            display: inline-flex !important; 
-            align-items: center !important; 
-            gap: 1rem !important;
-        }
-        
-        .text-title {
-            text-align: center !important; 
-            font-weight: 700 !important;
-        }
-        
-        .btn-icon {
-            background-color: white !important; 
-            border-radius: 1rem !important; 
-            height: 3rem !important; 
-            display: flex !important; 
-            align-items: center !important; 
-            justify-content: center !important; 
-            aspect-ratio: 1 / 1 !important;
-        }
-        
-        .icon-size-medium {
-            font-size: 1.7rem !important;
-        }
-        
-        .icon-blue {
-            font-size: 3vh !important; 
-            color: #3279B6 !important;
-        }
-        
-        
-        a {
-            text-decoration: none !important; 
-            color: #3279B6 !important;
-        }
-        
-        img {
-            width: 90% !important; 
-            height: auto !important; 
-            margin-bottom: 7vh !important;
-        }
-    </style>  
     <div class="text-center" style="font-family: sans-serif;">
         <header>
             <div class="row w-100 text-white mx-0 rounded">
@@ -101,14 +39,14 @@
         </div>
         <div class="row mx-auto justify-content-center mt-5" style="width: 25%;">
             <div class="col-6">
-                <div class="text-white px-4 py-2 shadow info-btn">
-                    <i class="fa fa-question-circle icon-size-medium"></i>
+                <div class="btn text-white px-4 py-2 shadow" style="background-color: #3279B6; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <i class="fa fa-question-circle" style="font-size: 1.7rem;"></i>
                     <h5 class="mb-0" style="white-space: nowrap;">Support</h5>
                 </div>
             </div>
             <div class="col-6">
-                <div class="text-white px-4 py-2 shadow info-btn">
-                    <i class="fa fa-thumbs-up icon-size-medium"></i>
+                <div class="btn text-white px-4 py-2 shadow" style="background-color: #3279B6; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <i class="fa fa-thumbs-up" style="font-size: 1.7rem;"></i>
                     <h5 class="mb-0" style="white-space: nowrap;">Easy & Simple</h5>
                 </div>
             </div>
@@ -118,28 +56,28 @@
     <!-- Preview -->
     <section class="oe_container" style="background-color: #3279B6; text-align: center;">
         <div>
-            <h1 class="text-white pb-4 pt-4 text-title">Preview</h1>
+            <h1 class="text-white pb-4 pt-4" style="text-align: center; font-weight: 700;">Preview</h1>
         </div>
         <div class="row mx-auto">
             <div class="col-6 d-flex align-items-center">
                 <div class="text-white w-75 mx-auto">
-                    <h1 class="pb-2 text-title">PO Preview</h1>
+                    <h1 class="pb-2" style="text-align: center; font-weight: 700;">PO Preview</h1>
                     <h3 class="oe_slogan" style="text-align: center;">
                         In preview of the purchase order, you can see the product documents that are available and download them. You can also access PO or RFQ document.
                     </h3>
                 </div>
             </div>
             <div class="col-6">
-                <img src="PO_Preview.png" alt="PO Preview" class="mt-5 shadow">
+                <img src="PO_Preview.png" alt="PO Preview" class="mt-5 shadow" style="width: 90%; height: auto; margin-bottom: 7vh;">
             </div>
         </div>
         <div class="row mx-auto">
             <div class="col-6">
-                <img src="PO.png" alt="PO" class="mt-5 shadow">
+                <img src="PO.png" alt="PO" class="mt-5 shadow" style="width: 90%; height: auto; margin-bottom: 7vh;">
             </div>
             <div class="col-6 d-flex align-items-center">
                 <div class="text-white w-75 mx-auto">
-                    <h1 class="pb-2 text-title">Purchase Order</h1>
+                    <h1 class="pb-2" style="text-align: center; font-weight: 700;">Purchase Order</h1>
                     <h3 class="oe_slogan" style="text-align: center;">
                         In RFQ and PO form view, button Preview is available. When you click on it, you will see the preview of the purchase order with product documents depending on the visibility of product document
                     </h3>
@@ -149,23 +87,23 @@
         <div class="row mx-auto">
             <div class="col-6 d-flex align-items-center">
                 <div class="text-white w-75 mx-auto">
-                    <h1 class="pb-2 text-title">Settings</h1>
+                    <h1 class="pb-2" style="text-align: center; font-weight: 700;">Settings</h1>
                     <h3 class="oe_slogan" style="text-align: center;">
                         In the Setting, you can select all of the Purchase Order reports that you want to add the Product Documents to  
                     </h3>
                 </div>
             </div>
             <div class="col-6">
-                <img src="Settings.png" alt="Settings" class="mt-5 shadow">
+                <img src="Settings.png" alt="Settings" class="mt-5 shadow" style="width: 90%; height: auto; margin-bottom: 7vh;">
             </div>
         </div>
         <div class="row mx-auto">
             <div class="col-6">
-                <img src="Product_Documents.png" alt="Product Documents" class="mt-5 shadow">
+                <img src="Product_Documents.png" alt="Product Documents" class="mt-5 shadow" style="width: 90%; height: auto; margin-bottom: 7vh;">
             </div>
             <div class="col-6 d-flex align-items-center">
                 <div class="text-white w-75 mx-auto">
-                    <h1 class="pb-2 text-title">Visibility</h1>
+                    <h1 class="pb-2" style="text-align: center; font-weight: 700;">Visibility</h1>
                     <h3 class="oe_slogan" style="text-align: center;">
                         In Product Documents form, tree, kanban and search view new selection field Visibility on purchase is available. This field has 5 values
                     </h3>
@@ -177,29 +115,29 @@
     <!-- Features -->
     <section class="oe_container" style="text-align: center; margin-bottom: 5rem;">
         <div class="mx-auto">
-            <h1 class="pb-2 text-title" style="margin-top: 6vh; color:#3279B6; ">Features</h1>
+            <h1 class="pb-2" style="margin-top: 6vh; color:#3279B6; text-align: center; font-weight: 700;">Features</h1>
         </div>
         <div class="row mx-auto justify-content-center w-75 pt-5" style="border-top: 0.1rem solid #3279B6;">
             <div class="col-4">
-                <div class="px-3 py-3 shadow feature-btn">
-                    <div class="p-2 shadow btn-icon">
-                        <i class="fa fa-file icon-size-medium"></i>
+                <div class="btn px-3 py-3 shadow" style="color: #3279B6; background-color: #D1E3F2; width: 90%; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <div class="p-2 shadow" style="background-color: white; border-radius: 1rem; height: 3rem; display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1;">
+                        <i class="fa fa-file" style="font-size: 1.7rem;"></i>
                     </div>
                     <h5 class="mb-0" style="text-align: left;">Access Product Documents Through Documents</h5>
                 </div>
             </div>
             <div class="col-4">
-                <div class="px-3 py-3 shadow feature-btn">
-                    <div class="p-2 shadow btn-icon">
-                        <i class="fa fa-link icon-size-medium"></i>
+                <div class="btn px-3 py-3 shadow" style="color: #3279B6; background-color: #D1E3F2; width: 90%; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <div class="p-2 shadow" style="background-color: white; border-radius: 1rem; height: 3rem; display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1;">
+                        <i class="fa fa-link" style="font-size: 1.7rem;"></i>
                     </div>
                     <h5 class="mb-0" style="text-align: left;">Link PO Document With Product Document</h5>
                 </div>
             </div>
             <div class="col-4">
-                <div class="px-3 py-3 shadow feature-btn">
-                    <div class="p-2 shadow btn-icon">
-                        <i class="fa fa-eye-slash icon-size-medium"></i>
+                <div class="btn px-3 py-3 shadow" style="color: #3279B6; background-color: #D1E3F2; width: 90%; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <div class="p-2 shadow" style="background-color: white; border-radius: 1rem; height: 3rem; display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1;">
+                        <i class="fa fa-eye-slash" style="font-size: 1.7rem;"></i>
                     </div>
                     <h5 class="mb-0" style="text-align: left;">Field Visibility On Purchase</h5>
                 </div>
@@ -207,25 +145,25 @@
         </div>
         <div class="row mx-auto justify-content-center w-75" style="margin-top: 5vh;">
             <div class="col-4">
-                <div class="px-3 py-3 shadow feature-btn">
-                    <div class="p-2 shadow btn-icon">
-                        <i class="fa fa-eye icon-size-medium"></i>
+                <div class="btn px-3 py-3 shadow" style="color: #3279B6; background-color: #D1E3F2; width: 90%; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <div class="p-2 shadow" style="background-color: white; border-radius: 1rem; height: 3rem; display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1;">
+                        <i class="fa fa-eye" style="font-size: 1.7rem;"></i>
                     </div>
                     <h5 class="mb-0" style="text-align: left;">Purchase Preview Button</h5>
                 </div>
             </div>
             <div class="col-4">
-                <div class="px-3 py-3 shadow feature-btn">
-                    <div class="p-2 shadow btn-icon">
-                        <i class="fa fa-window-maximize icon-size-medium"></i>
+                <div class="btn px-3 py-3 shadow" style="color: #3279B6; background-color: #D1E3F2; width: 90%; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <div class="p-2 shadow" style="background-color: white; border-radius: 1rem; height: 3rem; display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1;">
+                        <i class="fa fa-window-maximize" style="font-size: 1.7rem;"></i>
                     </div>
                     <h5 class="mb-0" style="text-align: left;">Portal Preview</h5>
                 </div>
             </div>
             <div class="col-4">
-                <div class="px-3 py-3 shadow feature-btn">
-                    <div class="p-2 shadow btn-icon">
-                        <i class="fa fa-envelope icon-size-medium"></i>
+                <div class="btn px-3 py-3 shadow" style="color: #3279B6; background-color: #D1E3F2; width: 90%; border-radius: 1.5rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+                    <div class="p-2 shadow" style="background-color: white; border-radius: 1rem; height: 3rem; display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1;">
+                        <i class="fa fa-envelope" style="font-size: 1.7rem;"></i>
                     </div>
                     <h5 class="mb-0" style="text-align: left;">Send PO By Email</h5>
                 </div>
@@ -236,30 +174,30 @@
     <!-- Footer -->
     <section style="background-color: #3279B6; text-align: center;">
         <div>
-            <h1 class="text-white pt-4 pb-4 text-title">Need Any Help?</h1>
+            <h1 class="text-white pt-4 pb-4" style="text-align: center; font-weight: 700;">Need Any Help?</h1>
         </div>
         <div class="row mx-auto justify-content-center pb-5" style="width: 60%;">
             <div class="col-4">
-                <div class="btn shadow px-3 rounded-pill credentials-btn">
-                    <i class="fa fa-phone icon-blue"></i>
+                <div class="btn shadow px-3 rounded-pill" style="background-color: white; display: inline-flex; align-items: center; gap: 1rem;">
+                    <i class="fa fa-phone" style="font-size: 2vh; color: #3279B6;"></i>
                     <h5 class="mb-0" style="white-space: nowrap;">
-                        <a href="tel:+41815116500">+41 81 511 65 00</a>
+                        <a style="text-decoration: none; color: #3279B6;" href="tel:+41815116500">+41 81 511 65 00</a>
                     </h5>
                 </div>
             </div>
             <div class="col-4">
-                <div class="btn shadow px-4 rounded-pill credentials-btn">
-                    <i class="fa fa-globe icon-blue"></i>
+                <div class="btn shadow px-4 rounded-pill" style="background-color: white; display: inline-flex; align-items: center; gap: 1rem;">
+                    <i class="fa fa-globe" style="font-size: 2vh; color: #3279B6;"></i>
                     <h5 class="mb-0" style="white-space: nowrap;">
-                        <a href="https://www.nivels.ch/">https://www.nivels.ch/</a>
+                        <a style="text-decoration: none; color: #3279B6;" href="https://www.nivels.ch/">https://www.nivels.ch/</a>
                     </h5>
                 </div>
             </div>
             <div class="col-4">
-                <div class="btn shadow px-3 rounded-pill credentials-btn">
-                    <i class="fa fa-envelope icon-blue"></i>
+                <div class="btn shadow px-3 rounded-pill" style="background-color: white; display: inline-flex; align-items: center; gap: 1rem;">
+                    <i class="fa fa-envelope " style="font-size: 2vh; color: #3279B6;"></i>
                     <h5 class="mb-0" style="white-space: nowrap;">
-                        <a href="mailto:info@nivels.ch">info@nivels.ch</a>
+                        <a style="text-decoration: none; color: #3279B6;" href="mailto:info@nivels.ch">info@nivels.ch</a>
                     </h5>
                 </div>
             </div>
